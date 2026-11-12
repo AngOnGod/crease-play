@@ -1,0 +1,29 @@
+{
+  "player": {
+    "source": "Body: Quaternius Universal Base Characters, Superhero Male (CC0). Clips: Mesh2Motion human set (CC0), retargeted at load.",
+    "file": "athlete/athlete.glb",
+    "height": 1.82,
+    "textures": {
+      "skinLight": "athlete/skin-light.webp",
+      "skinDark": "athlete/skin-dark.webp",
+      "normal": "athlete/normal.webp",
+      "rough": "athlete/rough.webp",
+      "eye": "athlete/eye.webp"
+    },
+    "clips": {
+      "idle": { "file": "human/idle-a.glb", "speed": 0 },
+      "walk": { "file": "human/walk.glb", "speed": 0.8 },
+      "jog": { "file": "human/jog.glb", "speed": 4.5 },
+      "sprint": { "file": "human/sprint.glb", "speed": 6.9 },
+      "strafeL": { "file": "human/strafe-right.glb", "speed": 0.6 },
+      "strafeR": { "file": "human/strafe-left.glb", "speed": 0.6 },
+      "back": { "file": "human/walk-backwards.glb", "speed": 0.75 }
+    }
+  },
+  "env": {
+    "day": { "file": "kloofendal_48d_partly_cloudy_puresky_2k.hdr", "sun": [0.554, 0.742, 0.378], "label": "Afternoon" },
+    "golden": { "file": "qwantani_sunset_puresky_2k.hdr", "sun": [0.804, 0.106, 0.585], "label": "Golden hour" },
+    "overcast": { "file": "overcast_soil_puresky_2k.hdr", "sun": null, "label": "Overcast" },
+    "night": { "file": "kloppenheim_02_puresky_2k.hdr", "sun": [0.777, 0.293, 0.557], "label": "Night" }
+  }
+}
